@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "rahul-49980": {
+      "hosting": {
+        "client": [
+          "rahul-49980"
+        ]
+      }
+    }
+  }
+}

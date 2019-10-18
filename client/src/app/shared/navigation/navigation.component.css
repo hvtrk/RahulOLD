@@ -1,4 +1,57 @@
 main{
+    min-height: 50px;
+    max-height: 120px;
     height: 10%;
-    background-color: black;
+    background-color: #34495e;
+}
+.white svg {
+    color: white;
+}
+
+a {
+    color: #BDBDBD !important;
+}
+
+a:hover {
+    color: #FAFAFA !important;
+}
+
+main nav {
+    height: 100%;
+    font-size: 1.5rem;
+    color: black !important;
+}
+
+.navbar-brand {
+    /* font-family: 'Long Cang', cursive; */
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.navbar-brand img {
+    vertical-align: sub;
+}
+
+#navbarNav {
+    font-family: 'Lora', serif;
+    vertical-align: middle !important;
+    margin-left: 40px;
+    background-color: #34495e;
+    /* position: relative;
+    height: 100%; */
+    /* flex-flow: column; */
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-link {
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+.nav-link i {
+    font-size: 30px;
+    vertical-align: middle;
 }

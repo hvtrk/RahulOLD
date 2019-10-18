@@ -1,18 +1,47 @@
-<main>
-  <nav class="cd-stretchy-nav">
-    <a class="cd-nav-trigger" href="#0">
-      Menu
-      <span aria-hidden="true"></span>
+<main class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- Brand Name -->
+
+    <a class="navbar-brand" href="#">
+        <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" height="45" class="d-inline-block" alt="brand_logo">
+      Rahul Kumar
     </a>
-
-    <ul>
-      <li><a href="#0" class="active"><span>Home</span></a></li>
-      <li><a href="#0"><span>Portfolio</span></a></li>
-      <li><a href="#0"><span>Services</span></a></li>
-      <li><a href="#0"><span>Store</span></a></li>
-      <li><a href="#0"><span>Contact</span></a></li>
-    </ul>
-
-    <span aria-hidden="true" class="stretchy-nav-bg"></span>
+    <!-- Ham Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Nav Bar Data -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!-- Home -->
+        <li class="nav-item"> <!-- active -->
+          <a class="nav-link" href="/home">
+            <i class="material-icons">home</i>
+            Menu 1
+          </a>
+        </li>
+        <!-- Profile -->
+        <li class="nav-item">
+          <a class="nav-link" href="/login">
+            <i class="material-icons">account_circle</i>
+            Menu 2
+          </a>
+        </li>
+        <!-- Resume -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="material-icons">person</i>
+            Menu 3
+          </a>
+        </li>
+        <!-- Work -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="material-icons">work</i>
+            Menu 4
+          </a>
+        </li>
+      </ul>
+    </div>
   </nav>
 </main>
